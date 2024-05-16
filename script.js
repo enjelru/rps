@@ -11,31 +11,15 @@ function getComputerChoice() {
     console.log("computer choice is scissor");
     return "scissor";
   }
-
-  // const randomNumber = Math.floor(Math.random() * 3 + 1);
-  // switch (randomNumber) {
-  //   case 1:
-  //     compChoice = "rock";
-  //     console.log("computer choice is rock");
-  //     break;
-  //   case 2:
-  //     compChoice = "paper";
-  //     console.log("computer choice is paper");
-  //     break;
-  //   case 3:
-  //     compChoice = "scissor";
-  //     console.log("computer choice is scissor");
-  //     break;
-  // }
 }
 
 function getHumanChoice() {
-  const getPlayerInput = prompt("Select Rock, Paper, or Scissor: ");
+  const playerInput = prompt("Select Rock, Paper, or Scissor: ");
 
-  if (getPlayerInput === null) {
+  if (playerInput === null) {
     alert("You canceled the prompt. Finish the game!");
     return getHumanChoice();
-  } else if (getPlayerInput === "") {
+  } else if (playerInput === "") {
     alert("Please provide a valid choice.");
     return getHumanChoice();
 
