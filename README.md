@@ -1,2 +1,2 @@
 # Rock-Paper-Scissor
-## First project for The Odin Project
+## A quick Rock-Paper-Scissor game for The Odin Project no web design yet
