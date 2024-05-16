@@ -30,12 +30,12 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-  const getUserInput = prompt("Select Rock, Paper, or Scissor: ");
+  const getPlayerInput = prompt("Select Rock, Paper, or Scissor: ");
 
-  if (getUserInput === null) {
+  if (getPlayerInput === null) {
     alert("You canceled the prompt. Finish the game!");
     return getHumanChoice();
-  } else if (getUserInput === "") {
+  } else if (getPlayerInput === "") {
     alert("Please provide a valid choice.");
     return getHumanChoice();
 
