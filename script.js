@@ -171,31 +171,7 @@ function playAgain(playerWins, computerWins) {
 
     return;
   });
-
-  // let text;
-  /*
-  if (confirm("Play again?")) {
-    text = "Yes";
-    resetGame();
-    showWinner.textContent = "";
-    playerResult.textContent ="";
-    computerResult.textContent ="";
-
-  } else {
-    text = "No";
-    console.log("Game over! Thank you for playing!")
-    // alert("Game over! Thank you for playing!");
-    resetGame();
-    showWinner.textContent = "";
-    playerResult.textContent ="";
-    computerResult.textContent ="";
-
-
-    return;
-  }
-    */
 }
 
-//invoke function playGame
 playGame();
 
